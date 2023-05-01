@@ -1,0 +1,81 @@
+footer{
+    background-color: rgba(157, 212, 233, 0.737);
+    height:200px;
+}
+
+header {
+  background-color: rgba(157, 212, 233, 0.737);
+  height: 200px;
+}
+
+  .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}  
+
+  .sweets img{
+     height:250px;
+     margin-bottom: 10px;
+     overflow: hidden;
+}
+
+ 
+ .pic1 img {
+  transition: transform 0.25s;
+ }
+
+ .pic1:hover img {
+  transform: scale(1.1);
+ }
+
+ .pic2 img {
+  transition: transform 0.25s;
+ }
+
+ .pic2:hover img {
+  transform: scale(1.1);
+ }
+
+ .pic13img {
+  transition: transform 0.25s;
+ }
+
+ .pic3:hover img {
+  transform: scale(1.1);
+ }
+
+ .pic4 img {
+  transition: transform 0.25s;
+ }
+
+ .pic4:hover img {
+  transform: scale(1.1);
+ }
+
+@media screen and (min-width: 540px){
+  header {
+      height:300px;
+  }
+  .welcome,p{
+    font-size: 1.4rem;
+  }
+}
+
+ 
+@media screen and (min-width: 900px){
+      header {
+          height:300px;
+      }
+      
+    header img{
+      width:60%;
+      height: 100%;
+    }
+   
+    .welcome,p{
+      font-size: 1.4rem;
+    }
+    
+  }
+ 
